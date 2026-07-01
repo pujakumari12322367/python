@@ -1,0 +1,106 @@
+Python Series
+
+
+Memory- It is a logical entity.
+
+		
+		
+		
+
+Memory Cell
+Value                         Address -> (Variable)
+
+
+Magic Method -> Also known as double underscore method.
+
+Python Data Types:
+Numeric:
+Integer   2. Float   3. Complex
+Sequence:
+String    2. List    3. Tuple      4. Range()
+Set:
+Set       2. Frozen Set-It us immutable and can change after creation.
+Mapping:
+Dictionary
+Boolean:
+True      2. False
+
+
+
+Slicing:
+[Start: Stop: Step]
+Start-> Starting Index                            Stop-> Last Value[Default]                                Step-> Default-1
+        Default-0                                 Always Excluded
+
+
+
+
+Mapping:(Dictionary)- Combination of two list
+Data format-> "key" : "value"
+            (unique)
+        (cannot be NULL)
+ 
+
+ Function:
+
+def<function_name> (parameters):
+
+
+Boolean:
+Boolean is a data type which store the conditions whether it is true or false.
+
+Operators:
+Arithmetic-> +, -, *, %, /, //, **
+Assignment-> =, +=, -=, *=, /=, %=
+Comparison-> ==, !=, >, <, >=, <= (It used to compare single conditions)
+Logical-> and, or, not
+Bitwise-> &, |, ", ^
+Identity-> is, is not
+Membership-> in, not in
+
+Types of Parameters:
+Positional
+Default
+Keyword
+Variable-Length
+
+
+Data Structure(The structure of node is equal for all data structures).                  [Node and Reference]
+
+Their are two types of Data Structure
+Linear
+Non-Linear
+In x-axis(It goes Left to Right) we have List, Arrays, Queue
+In y-axis(It goes Top to Bottom) we have Stack, Heap, [HashMap]
+
+***When we talk about memory cell we talk about logical cell.
+
+***For insertion we need to create a node first.
+
+
+Sorting:                                                   Searching:
+Var input1[take two value from ds]                      1. Value(input)
+Compare it                                              2. Compare
+                                                           3. Once got th value Break(loop) 
+
+Stack and Queues
+  (y-axis)      (x-axis)
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
