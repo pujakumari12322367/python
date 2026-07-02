@@ -15,7 +15,7 @@ class BinaryTree:
 
         current = self.root
 
-        while True:
+        while True: 
             if data < current.data:
                 if current.left is None:
                     current.left = newNode
