@@ -20,7 +20,7 @@ class TreeStructure:
         
         #Logic2
     def left(self, root_node, node):
-        self.root.left = self.insertNode
+        self.root.left = self.insertNode   
     def right(self, root_node, node):
         self.root.right = self.node 
     
