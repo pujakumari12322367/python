@@ -19,7 +19,7 @@ class Graph:
         self.graph[source].append(destination)
 
     # Display Graph
-    def display(self):
+    def display(self): 
         for node in self.graph:
             print(node, "->", self.graph[node])
 
