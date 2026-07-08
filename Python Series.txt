@@ -1,11 +1,6 @@
 Python Series
 
-
 Memory- It is a logical entity.
-
-		
-		
-		
 
 Memory Cell
 Value                         Address -> (Variable)
@@ -31,8 +26,6 @@ Slicing:
 [Start: Stop: Step]
 Start-> Starting Index                            Stop-> Last Value[Default]                                Step-> Default-1
         Default-0                                 Always Excluded
-
-
 
 
 Mapping:(Dictionary)- Combination of two list
@@ -86,6 +79,58 @@ Compare it                                              2. Compare
 Stack and Queues
   (y-axis)      (x-axis)
    
+Tree:                    L       R        ->L0
+                                -------Root-------        ->L1
+                                |                |
+                       --1st branch--     --2nd branch--  ->L2
+                       |            |     |            |
+                         leaf nodes         leaf nodes
+
+
+class Node:
+def__init__(self,data)
+self.left = None
+self.right = None
+self.data = data
+
+***A Binary tree have at most 2 child class and the right child is always higher than left one.
+ 
+
+***The Graph is always represented by dictionary.
+
+Relationship
+Start-> Reading Header
+
+
+
+Sorting:
+[10,9,100,20,5]
+Compare & Swap- Left, right, specific element(Time Complexity- O(n^2))
+Pivot & compare(Time Complexity- O(logn))
+
+Bubble Sort:
+Start from Left
+Moving larger element to right
+
+
+We use Shallow Copy and Deep Copy to create copies of objects, especially when working with lists, dictionaries, nested lists, or other mutable objects. The main difference is whether the nested objects are shared or copied.
+1-Deep Copy- var = "Hello" -> (var_c=var)
+2-Shallow Copy- print("Y" + "Hello")
+
+
+List-> Keys
+       -> Values
+       -> Items
+
+*********
+1- Key: It returns the keys only. Eg- Name-Puja, City-Jalandhar, Age- 21
+So, It will print (Name, City and Age).
+
+2- Values: It returns the values only. Eg- Name-Puja, City-Jalandhar, Age- 21
+So, It will print (Puja, Jalandhar, 21).
+
+3- Items: It returns the keys and values as well. Eg- Name-Puja, City-Jalandhar, Age- 21
+So, It will print (Name-Puja, City-Jalandhar, Age- 21).
 
 
 
