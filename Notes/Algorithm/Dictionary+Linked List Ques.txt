@@ -1,0 +1,25 @@
+'''
+A cricket coach has the scores of 15 players.
+
+Requirements
+    Accept scores of all players.
+    Display the original list.
+    Sort the scores using Bubble Sort.
+    Display the sorted scores.
+    Ask the coach to enter a player's score.
+    Search for the score using Binary Search.
+    Display the player's rank based on the sorted list.
+    Also display:
+        Highest score
+        Lowest score
+        Total number of players
+'''
+
+
+Approach:
+
+1st Step: To accept the scores we have to take user input.
+2nd Step: To Display the original List we have to make a (Linked List-> head, node and reference)
+And then we insert the data using Insertion.
+3rd Step: To Sort the scores we have to use Bubble Sort(as mentioned in question and also bubble sort works on descending order).
+4th Step: 
